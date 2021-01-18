@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat w/ Eunju - Kokoa Clone</title>
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -24,7 +24,7 @@
 
     <header class="alt-header">
         <div class="alt-header__column">
-            <a href="more.html">
+            <a href="chats.html">
                 <i class="fas fa-angle-left fa-3x"></i>
             </a>
         </div>
@@ -37,8 +37,28 @@
         </div>
     </header>
 
-    <main class="main-screen">
-       
+    <main class="main-screen main-chat">
+       <div class="chat__timestamp">
+          Tuesday, June 30, 2020
+       </div>
+       <div class="message-row">
+         <img src="https://i.pinimg.com/564x/40/26/07/40260722dc112533570942ae66854619.jpg" />
+         <div class="message-row__content">
+           <span class="message__author">Eunju</span>
+           <div class="message__info">
+             <span class="message__bubble">Hi</span>
+             <span class="message_time">21:27</span>
+           </div>
+         </div>
+       </div>
+       <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi nice to meet you</span>
+            <span class="message_time">21:27</span>
+          </div>
+        </div>
+      </div>
     </main>
 
     <script
